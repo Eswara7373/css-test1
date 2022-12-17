@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+    background-color: aquamarine;
+}
+#img1{
+    height: 50px;
+    width: 200px;
+}
+#btns{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+#top2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-image: linear-gradient(
+        to bottom,
+        lightpink,
+        lightblue,
+        yellow
+    );
+}
+#btn2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: darkcyan;
+    border-color: black;
+}
+#top3{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+#box{
+    height: 250px;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-color: black;
+    box-shadow: 10px 20px 30px black;
+}
+#btn3{
+    margin-left: 30px;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: black;
+   
+}
+#top4{
+    margin-top: 50px;
+    background-color: rgb(223, 179, 165);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#box:hover{
+    height: 250px;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-color: black;
+    box-shadow: 20px 20px 30px black;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 667px) and (min-width:375px){
+    #top{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: aquamarine;
+    }
+    
+    #img1{
+        height: 50px;
+        width: 200px;
+    }
+    #btns{
+        height: 30px;
+        width: 50px;
+        display: flex;
+        flex-direction:row ;
+        gap: 30px;
+        margin-top: 10px;
+    }
+    
+    #top2{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background-image: linear-gradient(
+            to bottom,
+            lightpink,
+            lightblue,
+            yellow
+        );
+    }
+    #btn2{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        height: 50px;
+        width: 150px;
+        border-radius: 30px;
+        background-color: darkcyan;
+        border-color: black;
+    }
+    #top3{
+        margin-top: 50px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    #box{
+        height: 250px;
+        width: 200px;
+        background-color: bisque;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-color: black;
+        box-shadow: 10px 20px 30px black;
+    }
+    #btn3{
+        margin-left: 30px;
+        color: aliceblue;
+        height: 50px;
+        width: 100px;
+        border-radius: 30px;
+        background-color: black;
+       
+    }
+    #top4{
+        margin-top: 50px;
+        background-color: rgb(223, 179, 165);
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #box:hover{
+        height: 250px;
+        width: 200px;
+        background-color: bisque;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-color: black;
+        box-shadow: 20px 20px 30px black;
+    }
+    
+    
+}
+
